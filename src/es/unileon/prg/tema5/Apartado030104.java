@@ -51,9 +51,9 @@ package es.unileon.prg.tema5;
          varLong   = 9223372036854775807L;
          varFloat  = varLong;
          
-        varByte   = varShort;
+        // varByte   = varShort;
          // está no es una conversión implícita porque en un byte no cabe un short
-        varShort  = varInt;
+        // varShort  = varInt;
          // está no es una conversión implícita porque en un short no cabe un int
          
       
@@ -151,26 +151,43 @@ package es.unileon.prg.tema5;
          dGigante = 1.766e289;
          dNormal  = 35.987654321;
          dMinimo  = 0.2E-256;
+         // Hago un ant para ver donde hay errores al compilar y para ver el resultado de todo lo compilado
       
          fGigante = (float)dGigante;
+         // Hay desbordamiento porque el valor es demasiado grande para float y se va a infinito
          fNormal  = (float)dNormal;
+         // Hay pérdida de precisión al pasar de double a float
          fMinimo  = (float)dMinimo;
+         // Es un valor demasiado pequeño para un float por lo que quedará coo 0.0
       
          System.out.println("Gigante: " + fGigante);    
          System.out.println("Normal : " + fNormal);    
          System.out.println("Minimo : " + fMinimo);
       
          byte b = (byte)130;
+         // Se va a producir desbordamiento
          short s = (short)32770;
+         // Igual que el anterior se va a producir desbordamiento
          int i = (int)2147483650l; 
+         // También se va a producir desbordamiento
       
          System.out.println("Byte  : " + b);    
          System.out.println("Short : " + s);    
          System.out.println("Int   : " + i);
       
-         /* DESCOMENTAR
-         float f = 1.3e22;   
+         
+         float f = 1.3e22f;   
          System.out.println("f: " + f); 
-         */ 
+         // Este es el único error que impide compilar, ya que, 1.3e22 es por defecto un double, por lo que, hay que añadir f al final
+         /*Resultados 
+         * [java] Gigante: Infinity
+         * [java] Normal : 35.987656
+         * [java] Minimo : 0.0
+         * [java] Byte  : -126
+         * [java] Short : -32766
+         * [java] Int   : -2147483646
+         * [java] f: 1.3E22
+         */
+         
       }
    }
