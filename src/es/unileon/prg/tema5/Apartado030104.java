@@ -51,9 +51,9 @@ package es.unileon.prg.tema5;
          varLong   = 9223372036854775807L;
          varFloat  = varLong;
          
-        // varByte   = varShort;
+         varByte   = varShort;
          // está no es una conversión implícita porque en un byte no cabe un short
-        // varShort  = varInt;
+         varShort  = varInt;
          // está no es una conversión implícita porque en un short no cabe un int
          
       
