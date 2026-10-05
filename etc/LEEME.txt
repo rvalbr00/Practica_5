@@ -14,3 +14,8 @@ operación el resultado aparece con está pequeña imprecisiónEste resultado se
 tipo double para representar los números decimales. Al realizar la operación, aparece esta pequeña imprecisión debido
 a que algunos números decimales no pueden representarse exactamente en formato binario. Por ello, Java trabaja con una
 aproximación y muestra este pequeño error en el resultado. 
+
+-Apartado030101 Ejercicio5
+Al utilizar ant para ejecutar este ejercicio, obtuve como resultado 2.8 - 1.5 = 1.3. En este caso se utiliza la clase
+BigDecimal para representar los números decimales, lo que permite realizar operaciones con mayor precisión que
+utilizando double.Por este motivo no apareció una imprecisión como la del anterior ejercicio.
