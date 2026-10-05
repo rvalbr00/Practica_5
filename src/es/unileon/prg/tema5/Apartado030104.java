@@ -113,6 +113,26 @@ package es.unileon.prg.tema5;
          float varFloat;
          double varDouble;
          varFloat= 123.1f;
+         varByte = (byte) varFloat;
+         varShort = (short) varFloat;
+         varInt = (int) varFloat;
+         varLong = (long) varFloat;
+         varDouble = varFloat;
+         // con varDouble no hace falta ponerlo después entre paréntesis porque ya hace la conversión implícita java
+         System.out.println("varFloat = " + varFloat);
+         System.out.println("varByte = " + varByte);
+         System.out.println("varShort = " + varShort);
+         System.out.println("varInt = " + varInt);
+         System.out.println("varLong = " + varLong);
+         System.out.println("varDouble = " + varDouble);
+         /*[java] varFloat = 123.1
+         * [java] varByte = 123
+         * [java] varShort = 123
+         * [java] varInt = 123
+         * [java] varLong = 123
+         * [java] varDouble = 123.0999984741211
+         * Al convertir el varFloat al resto de variables, se puede observar cómo estas pierden la parte décimal salvo por var Double que añade más precisión
+         */
         // Fin modificacion
       }
    
