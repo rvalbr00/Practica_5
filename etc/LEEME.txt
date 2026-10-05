@@ -2,9 +2,12 @@ Practica P-VAR
 
 Alumno: Raúl Valbuena Rubio
 
-Horas dedicadas: 4
+Horas dedicadas: 6
 
-Problemas surgidos al realizar la practica:
+Problemas surgidos al realizar la practica: El principal problema a la hora de realizar la práctica fue aprender cómo
+utilizar el visual studio. Aparte de eso, otro problema que me encontré fue el de entender cómo funcionaban las
+conversiones implícitas. Además, otro problema fue el de entender los métodos de la clase Math para realizar
+distintas operaciones matemáticas.
 
 Respuestas a la preguntas:
 -Apartado030101 Ejercicio4
