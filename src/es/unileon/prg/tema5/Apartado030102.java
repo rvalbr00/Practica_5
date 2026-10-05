@@ -85,6 +85,10 @@ public class Apartado030102 extends Apartado {
 		int segundos, horas, minutos;
 		int totalSegundos=56000;
 		// Realizacion de calculos
+		horas = totalSegundos / 3600;
+		minutos = (totalSegundos % 3600) / 60;
+		segundos = totalSegundos % 60;
+		System.out.println(horas+"h "+minutos+"m "+segundos+"s ");
          /* DESCOMENTAR
 		System.out.println(horas+"h "+minutos+"m "+segundos+"s ");
 		*/
