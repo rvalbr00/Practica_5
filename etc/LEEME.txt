@@ -2,7 +2,7 @@ Practica P-VAR
 
 Alumno: Raúl Valbuena Rubio
 
-Horas dedicadas: 1
+Horas dedicadas: 2
 
 Problemas surgidos al realizar la practica:
 
