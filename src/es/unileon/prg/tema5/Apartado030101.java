@@ -31,18 +31,29 @@ public class Apartado030101 extends Apartado {
 		cabecera("01", "Correccion de errores de compilacion");
 
 		// Inicio modificacion
-		Int entero = 6;
-		long otroEntero = 1.000;
-		long decimal = 7.0;
-		double otroDecimal = 7,0;
-		byte enteroDe8Bits = 10000;
-		char caracter = a;
-		char otroCaracter = "a";
-		boolean booleano = "true";
+		int entero = 6;
+		//Int no existe es int//
+		long otroEntero = 1000;
+		//long 1.000 no se puede, sería double//
+		long decimal = 7;
+		//7.0 es double, para long sería 7//
+		double otroDecimal = 7.0;
+		//falla la , que debería ser un .//
+		byte enteroDe8Bits = 100;
+		//byte se utiliza para valores más pequeños//
+		char caracter = 'a';
+		//faltan las comillas simples//
+		char otroCaracter = 'a';
+		//char utiliza comillas simples no dobles//
+		boolean booleano = true;
+		//sobran las comillas en true//
 		short enteroDe16Bits = 50000;
+		//valor demasiado grande para short//
 
-		byte static = 5;
-		byte int = 3;
+		byte statico = 5;
+		//falla por la palabra static que está reservada//
+		byte entero = 3;
+		//lo mismo que la anterior, int es palabra reservada//
 		double _otra-Variable = 2.0;
 		// Fin modificacion
 	}
