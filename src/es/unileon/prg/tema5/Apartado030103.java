@@ -95,6 +95,9 @@ public class Apartado030103 extends Apartado {
 		cabecera("04", "Calcular la superficie de un circulo");
 
 		// Inicio modificacion
+		double radio = 10;
+		double superficie = Math.PI * Math.pow(radio, 2);
+		System.out.println("La superficie del círculo es: " + superficie);
 		// Fin modificacion
 	}
 }
