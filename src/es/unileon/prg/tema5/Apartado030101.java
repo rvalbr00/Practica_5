@@ -54,7 +54,7 @@ public class Apartado030101 extends Apartado {
 		//falla por la palabra static que está reservada//
 		byte enteroInt = 3;
 		//lo mismo que la anterior, int es palabra reservada//
-		double otra-Variable = 2.0;
+		double otraVariable = 2.0;
 		// Fin modificacion
 	}
 
