@@ -19,3 +19,12 @@ aproximación y muestra este pequeño error en el resultado.
 Al utilizar ant para ejecutar este ejercicio, obtuve como resultado 2.8 - 1.5 = 1.3. En este caso se utiliza la clase
 BigDecimal para representar los números decimales, lo que permite realizar operaciones con mayor precisión que
 utilizando double.Por este motivo no apareció una imprecisión como la del anterior ejercicio.
+
+-Apartado030104 Ejercicio4
+
+Al convertir los valores de double a float, el número gigante produce Infinity y el mínimo 0.0 porque están fuera del
+rango que puede representar float. El número normal pierde algo de precisión. Al convertir valores demasiado grandes a
+byte, short e int, se produce un desbordamiento y al ejecutar ant estos obtienen un valor negativo. Finalmente, el
+último caso da error de compilación porque un número decimal viene por defecto en double y para ponerlo como float es
+necesario poner una f al final de dicho número.
+decimal es double por defecto y para asignarlo a float es necesario añadir f.
