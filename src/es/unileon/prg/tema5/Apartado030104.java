@@ -51,9 +51,9 @@ package es.unileon.prg.tema5;
          varLong   = 9223372036854775807L;
          varFloat  = varLong;
          
-         varByte   = varShort;
+        varByte   = varShort;
          // está no es una conversión implícita porque en un byte no cabe un short
-         varShort  = varInt;
+        varShort  = varInt;
          // está no es una conversión implícita porque en un short no cabe un int
          
       
@@ -75,8 +75,22 @@ package es.unileon.prg.tema5;
          short varShort;
          int varInt;
          long varLong;
-      
          varLong=35000L;
+         varByte = (byte) varLong;
+         // Se lee: convierte el valor de varLong a byte y guarda el resultado en varByte
+         varShort = (short) varLong;
+         varInt = (int) varLong;
+         // lo que aparece entre paréntesis es para que se pase ese dato al tipo que sea
+         System.out.println("varLong = " + varLong);
+         System.out.println("varByte = " + varByte);
+         System.out.println("varShort = " + varShort);
+         System.out.println("varInt = " + varInt);
+         /*varLong = 35000
+         * [java] varByte = -72
+         * [java] varShort = -30536
+         * [java] varInt = 35000
+         * Podemos ver como con el int el valor sigue siendo el mismo pero con byte y short se produce un desbordamiento
+         */
       // Fin modificacion
       }
    
