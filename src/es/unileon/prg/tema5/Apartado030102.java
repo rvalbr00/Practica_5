@@ -57,10 +57,13 @@ public class Apartado030102 extends Apartado {
 		cabecera("02", "Utilizacion de operadores logicos");
 
 		// Inicio modificacion
-		int edad;
-		int numeroPartes;
-		boolean deportivo;
+		int edad = 25;
+		int numeroPartes = 1;
+		boolean deportivo = false;
 		boolean rebaja;
+		rebaja = (edad >= 40 && edad <= 60 && numeroPartes < 3) || (edad > 20 && numeroPartes <= 1 && !deportivo);
+		System.out.println("Rebaja = " + rebaja);
+		//para construir la expresión de rebaja utilice los datos dados en la presentación y añadi yo mismo datos a edad etc.. para comprobar que funcionase (sí funciona)
 		// rebaja = expresion booleana
         /* DESCOMENTAR
 		System.out.println("Rebaja = " + rebaja);
