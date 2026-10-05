@@ -70,16 +70,26 @@ public class Apartado030101 extends Apartado {
 		cabecera("02", "Definicion de tipo de datos");
 
 		// Inicio modificacion
-		variable1 = 637;
-		variable2 = 637L;
-		variable3 = 6.37;
-		variable4 = 6.37f;
-		variable5 = 6.37d;
-		variable6 = '6';
-		variable7 = "6.37";
-		variable8 = 'a';
-		variable9 = "a";
-		variable10 = true;
+		int variable1 = 637;
+		//utilizo int para números enteros medianos//
+		long variable2 = 637L;
+		//utilizo long por la L que me indica que utilice este//
+		double variable3 = 6.37;
+		//utilizo double para números enteros con decimales//
+		float variable4 = 6.37f;
+		//utilizo float por lo mismo que long, está especificado por la f del final//
+		double variable5 = 6.37d;
+		//utilizo double por que me lo indica la d del final de igual forma//
+		char variable6 = '6';
+		//utilizo char porque el 6 está entre comillas simples//
+		String variable7 = "6.37";
+		//utilizo String porque el número está entre comillas dobles//
+		char variable8 = 'a';
+		//utilizo char porque la a está entre comillas simples//
+		String variable9 = "a";
+		//utilizo String porque la a está entre comillas dobles//
+		boolean variable10 = true;
+		//utilizo boolean porque boolean es para verdadero o falso//
 		// Fin modificacion
 	}
 
