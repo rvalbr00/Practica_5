@@ -105,17 +105,36 @@ public class Apartado030101 extends Apartado {
 		cabecera("03", "Definicion de variables");
 
 		// Inicio modificacion
-
+		int numeroAsignaturas;
 		//Numero de asignaturas de un curso
+		//las represento con int porque son un número entero
+		double notaMedia;
 		//Nota media de la asignatura
+		//la represento con double porque la nota media suele tener decimales
+		int edad;
 		//Edad de una persona
+		//la represento con int porque la edad es un número entero
+		double salario;
 		//Salario mensual de un empleado
+		//lo represento con double porque un salario suele tener decimales
+		String nombreAsignatura;
 		//Nombre de una asignatura
+		//lo represento con String porque el nombre de una asignatura son varios caracteres
+		final double PI = 3.14159;
 		//Constante PI
+		//la represento con final porque es una constante y con double para tener mas precisión con los decimales
+		final boolean VERDADERO = true;
 		//Constante VERDADERO
+		//al igual que la constante de pi, la constante la represento con final y verdadero o falso con boolean
+		int portal;
 		//Portal de la direccion de una vivienda
+		//lo represento con int porque es un número entero
+		int piso;
 		//Piso de la direccion de una vivienda
+		//misma explicación que la anterior
+		char puerta;
 		//Puerta la direccion de una vivienda
+		//la represento con char porque suele ser un caracter pero también se podría utilizar String
 
 		// Fin modificacion
 	}
