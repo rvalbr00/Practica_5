@@ -2,8 +2,15 @@ Practica P-VAR
 
 Alumno: Raúl Valbuena Rubio
 
-Horas dedicadas: 2
+Horas dedicadas: 3
 
 Problemas surgidos al realizar la practica:
 
 Respuestas a la preguntas:
+-Apartado030101 Ejercicio4
+Al utilizar ant para ejecutar este ejercicio me dió como resultado 2.8 - 1.5 = 1.2999999999999998 este resultado se
+debe a que en el código estaba señalado que el resultado se expresara como double, por lo que, al realizar la
+operación el resultado aparece con está pequeña imprecisiónEste resultado se debe a que en el código se utiliza el
+tipo double para representar los números decimales. Al realizar la operación, aparece esta pequeña imprecisión debido
+a que algunos números decimales no pueden representarse exactamente en formato binario. Por ello, Java trabaja con una
+aproximación y muestra este pequeño error en el resultado. 
