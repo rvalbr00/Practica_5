@@ -72,6 +72,14 @@ public class Apartado030103 extends Apartado {
 		cabecera("03", "Generar numeros aleatorios");
 
 		// Inicio modificacion
+		int numero = (int) (Math.random() * 6) + 5;
+		System.out.println(numero);
+		/* Math.random genera un número al azar entre 0.0 y 1.0
+		* al añadir el * 6, Math.random genera un número al azar entre 0.0 y 6.0
+		* Math.random * 6, con el (int) hace que genere un número entero (hace que desaparezca la parte decimal)
+		* Por último, con el +5, se generan números al azar entre el 5 y el 10
+		* no puede dar 11 porque Math.random * 6, como mucho puede dar 5.9 que acaba siendo un 10
+		*/
 		// Fin modificacion
 	}
 
