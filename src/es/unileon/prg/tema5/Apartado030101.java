@@ -47,14 +47,14 @@ public class Apartado030101 extends Apartado {
 		//char utiliza comillas simples no dobles//
 		boolean booleano = true;
 		//sobran las comillas en true//
-		short enteroDe16Bits = 50000;
+		short enteroDe16Bits = 30000;
 		//valor demasiado grande para short//
 
 		byte statico = 5;
 		//falla por la palabra static que está reservada//
-		byte entero = 3;
+		byte enteroInt = 3;
 		//lo mismo que la anterior, int es palabra reservada//
-		double _otra-Variable = 2.0;
+		double otra-Variable = 2.0;
 		// Fin modificacion
 	}
 
