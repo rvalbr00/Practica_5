@@ -53,6 +53,10 @@ public class Apartado030103 extends Apartado {
 		cabecera("02", "Calcular potencias");
 
 		// Inicio modificacion
+		double numero = 9;
+		double resultado = Math.pow(9, 3);
+		System.out.println(resultado);
+		//hice lo mismo que en el anterior apartado. Aunque, añadi también System.out.p... para comprobar el resultado con ant
 		// Fin modificacion
 	}
 
