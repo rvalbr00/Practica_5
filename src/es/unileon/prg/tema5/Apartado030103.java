@@ -29,6 +29,14 @@ public class Apartado030103 extends Apartado {
 		cabecera("01", "Calcular la raiz cuadrada de un numero");
 
 		// Inicio modificacion
+		double numero = 256;
+		double raiz = Math.sqrt(numero);
+		System.out.println(raiz);
+		/* Primero defino la variable dando el valor numérico del número
+		* Después, defino la operación raíz
+		* Pongo una línea de código para que se vea el resultado al hacer el ant
+		* Termino haciendo un ant para comprobar que funcione y efectivamente funciona
+		*/
 		// Fin modificacion
 	}
 
